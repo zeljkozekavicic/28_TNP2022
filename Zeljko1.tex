@@ -1,0 +1,98 @@
+% !TEX encoding = UTF-8 Unicode
+
+\documentclass[a4paper]{article}
+
+\usepackage{color}
+\usepackage{url}
+\usepackage[T2A]{fontenc} % enable Cyrillic fonts
+\usepackage[utf8]{inputenc} % make weird characters work
+\usepackage{graphicx}
+
+\usepackage[english,serbian]{babel}
+%\usepackage[english,serbianc]{babel} %ukljuciti babel sa ovim opcijama, umesto gornjim, ukoliko se koristi cirilica
+
+\usepackage[unicode]{hyperref}
+\hypersetup{colorlinks,citecolor=green,filecolor=green,linkcolor=blue,urlcolor=blue}
+
+%\newtheorem{primer}{Пример}[section] %ćirilični primer
+\newtheorem{primer}{Primer}[section]
+
+\begin{document}
+
+\title{Kvantna kriptografija\\ \small{Seminarski rad u okviru kursa\\Tehničko i naučno pisanje\\ Matematički fakultet}}
+
+\author{Igor Glišović\\mi22292@alas.matf.bg.ac.rs\\\\ Željko Zekavičić\\mi22130@alas.matf.bg.ac.rs\\\\ Nađa Lazarević\\mi22175@alas.matf.bg.ac.rs\\\\ Ana Mladenović\\mi22119@alas.matf.bg.ac.rs\\\\}
+\date{24.~oktobar 2017.}
+\maketitle
+
+\abstract{
+
+\newpage
+
+\tableofcontents
+
+\newpage
+
+\section{Uvod}
+\label{sec:uvod}
+Kriptografija je nauka koja se bavi očuvanjem tajnosti informacija. Cilj je da se informacije prenesu od pošiljaoca do primaoca tako da smo sigurni da one nisu dospele do nekog trećeg lica. Pri samom nastanku kriptografije glavni problemi su bili na koji način sačuvati tajnost procesa enkripcije/dekripcije podataka (neki od prvih primera klasične kriptografije su Cezarova šifra\footnote{Cezarova šifra (1. vek p.n.e) se zasnivala na supstituciji, gde bi se pri šifriranju svaki karakter pomerio unapred za n-pozicija u alfabetu, a pri dešifrovanju pomerio unazad za n-pozicija}  i Skital\footnote{Skital (5. vek p.n.e) je parče štafete koji su Grci koristili kako bi obavijali sakrivenu poruku oko nje i nakon toga došli do ispravne poruke}), jer bi se nakon saznavanja procesa na koji se šifruju podaci, oni mogli lako dešifrovati.
+
+Nakon mnogo vekova, nastankom i razvojem informacionih tehnologija, očuvanje sigurnosti podataka postaje još bitnije (ali i teže) nego što je nekad bilo. Kao jedan od najboljih načina za enkripciju podataka iz ere klasične kriptografije izdvaja se Vernamova šifra (tzv. \textit{OneTimePad} - OTP). OTP se zasniva na principu generisanju nasumičnog dugačkog ključa dužine kao izvorna poruka koju šaljemo. Ovakav sistem radi samo ako svaki put generišemo novi kod, jer ako dva puta prosledimo isti, lako se može dešifrovati ono što smo poslali. Takođe, veliki problem kod ovakvog načina enkripcije predstavlja prenos dugačkog ključa, te bi sam proces slanja poruke trajao duže. Ovaj problem se rešava tako što ključ skraćuje na fiksnu dužinu za svaku poruku. Međutim, moderna kriptografija sada nailazi na novi problem (poznatiji kao Kvaka 22):
+
+ \begin{center}
+\textit{Komunikacija između pošiljaoca i primaoca je sigurna, samo ako znamo da je sigurna.}
+\end{center} 
+
+Ovde dolazimo do zaključka da se klasičnom kriptografijom nikako ne može znati da li je informacija kompromitovana od strane trećih lica u toku slanja poruke. Ovaj problem se rešava primenom osobina kvantne mehanike na prenos informacija u nekom informacionom sistemu.
+
+\section{Principi kvantne kriptografije}
+.
+\subsection{Kvantni računari}
+.
+\subsection{Kvantni protokoli}
+.
+\subsection{Kvantni protokoli}
+.
+\section{Istorijat}	
+\label{sec:termini_i_citiranje}
+
+.
+\section{Kvantna kriptografija danas}
+.
+\section{Zaključak}
+\label{sec:zakljucak}
+
+.
+
+\newpage
+\addcontentsline{toc}{section}{Literatura}
+\appendix
+
+\iffalse
+\bibliography{seminarski} 
+\bibliographystyle{plain}
+\fi
+
+\begin{thebibliography}{9}
+
+\bibitem{laski2009software} J. Laski and W. Stanley. \emph{Software Verification and Analysis}. Springer- Verlag, London, 2009.
+
+\bibitem{gcc} Free Software Foundation. GNU gcc, 2013. on-line at: http://gcc. gnu.org/.
+
+\bibitem{haltingproblem} A. M. Turing. \emph{On Computable Numbers, with an application to the Entscheidungsproblem}. Proceedings of the London Mathematical Society, 2(42):230–265, 1936.
+
+
+\end{thebibliography}
+
+
+\appendix
+
+\section{Dodatak}
+Ovde pišem dodatne stvari, ukoliko za time ima potrebe.
+Ovde pišem dodatne stvari, ukoliko za time ima potrebe.
+Ovde pišem dodatne stvari, ukoliko za time ima potrebe.
+Ovde pišem dodatne stvari, ukoliko za time ima potrebe.
+Ovde pišem dodatne stvari, ukoliko za time ima potrebe.
+
+
+\end{document}
