@@ -1,0 +1,89 @@
+% !TEX encoding = UTF-8 Unicode
+
+\documentclass[a4paper]{article}
+
+\usepackage{color}
+\usepackage{url}
+\usepackage[T2A]{fontenc} % enable Cyrillic fonts
+\usepackage[utf8]{inputenc} % make weird characters work
+\usepackage{graphicx}
+
+\usepackage[english,serbian]{babel}
+%\usepackage[english,serbianc]{babel} %ukljuciti babel sa ovim opcijama, umesto gornjim, ukoliko se koristi cirilica
+
+\usepackage[unicode]{hyperref}
+\hypersetup{colorlinks,citecolor=green,filecolor=green,linkcolor=blue,urlcolor=blue}
+
+%\newtheorem{primer}{Пример}[section] %ćirilični primer
+\newtheorem{primer}{Primer}[section]
+
+\begin{document}
+
+\title{Kvantna kriptografija\\ \small{Seminarski rad u okviru kursa\\Tehničko i naučno pisanje\\ Matematički fakultet}}
+
+\author{Igor Glišović\\mi22292@alas.matf.bg.ac.rs\\\\ Željko Zekavičić\\mi22130@alas.matf.bg.ac.rs\\\\ Nađa Lazarević\\mi22175@alas.matf.bg.ac.rs\\\\ Ana Mladenović\\mi22119@alas.matf.bg.ac.rs\\\\}
+\date{24.~oktobar 2017.}
+\maketitle
+
+\abstract{
+U ovom tekstu je ukratko prikazana osnovna forma seminarskog rada. Obratite pažnju da je pored ove .pdf datoteke, u prilogu i odgovarajuća .tex datoteka, kao i .bib datoteka korišćena za generisanje literature. Na prvoj strani seminarskog rada su naslov, apstrakt i sadržaj, i to sve mora da stane na prvu stranu! Kako bi Vaš seminarski zadovoljio standarde i očekivanja, koristite uputstva i materijale sa predavanja na temu pisanja seminarskih radova. Ovo je samo šablon koji se odnosi na fizički izgled seminarskog rada (šablon koji \emph{morate} da ispoštujete!) kao i par tehničkih pomoćnih uputstava. 
+\newpage
+
+\tableofcontents
+
+\newpage
+
+\section{Uvod}
+
+\section{Principi kvantne kriptografije}
+
+\section{Istorijat}	
+\label{sec:termini_i_citiranje}
+
+Kroz celu istoriju čovečanstva postojala je potreba za sigurnom razmenom informacija. Problemom sigurne komunikacije bavili su se već Egipćani i Indijci pre više od 3000 godina i od tada do danas osnovna ideja se nije promenila, preneti neku poruku s jednog mesta na drugo što je sigurnije moguće. 
+
+Krajem dvadesetog veka čovečanstvo je ušlo u eru informacionih tehnologija. IT industrija, koja se bavi proizvodnjom, obradom, skladištenjem i prenosom informacija, postala je sastavni deo globalnog ekonomskog sistema, potpuno nezavisan i prilično značajan sektor privrede. Zavisnost savremenog društva od informacionih tehnologija je toliko velika da propusti u informacionim sistemima mogu dovesti do značajnih incidenata. Telekomunikacije su ključna industrija informacionih tehnologija. Međutim, informacije su tokom transporta veoma osetljive na razne vrste zloupotreba. Jedinice za skladištenje i obradu podataka mogu biti fizički zaštićene od nedobronamernih, što se ne može reći za komunikacione linije koje se protežu na stotine ili hiljade kilometara i koje je gotovo nemoguće zaštititi. Stoga je problem zaštite informacija u sferi telekomunikacija veoma značajan. Kriptologija kao nauka i posebno njen deo kriptografija upravo se bave ovom problematikom.  
+
+Dugi niz godina su mnogi naučnici tražili način ostvarenja takve komunikacije između dve osobe koja bi garantovala privatnost.  Kvantna kriptografija je relativno novija oblast koja se bavi obezbeđenjem sigurne komunikacije između pošiljaoca i primaoca informacije, koristeći zakone kvantne fizike. Cilj rada je da se upoznamo sa principima kvantne distribucije ključa za kodiranje informacija i osnovnim problemima koji se javljaju pri njegovoj realizaciji. 
+
+Kvantna kriptografija je prvi put predstavljena od strane Stephena Weisnera, na Kolumbija Univerzitetu u Njujorku, koji je ranih 70-ih godina prošlog veka predstavio koncept kvantnog kodiranja. Njegov rad, pod naslovom „Kodiranje konjugata“ (engl. Conjugate Coding) je bio odbačen od strane žurnala IEEE Informaciona Teorija, ali ipak biva objavljen 1983. godine u SIGACT News. U tom radu on je pokazao kako smestiti i poslati dve poruke koje su kodirane u dve „srodne pojave“, kao što je linearna i cirkularna polarizacija svetla, tako da bilo koja, ali ne obe, mogu biti poslate, primljene i dekodirane. Svoju ideju je ilustrovao kroz novčanice koje je nemoguće falsifikovati.  U međuvremenu, Charles H. Bennet (koji je znao o Weisnerovoj ideji) i Gilles Brassard su počeli raditi na istom području, najpre kroz nekoliko članaka, a posle i eksperimentalnim prototipom koji je demonstrirao tehnološku ostvarivost koncepta. 
+
+Taj se prototip sastojao od fotona koji su se gibali kroz 0.30 m dugu cev nazvanu „lijes tete Marthe“. Smer u kojem su fotoni oscilirali te njihova polarizacija predstavljaju 0 ili 1 niza kvantnih bitova ili qubita. Nezavisno od njih Artur Ekert sa univerziteta u Oksfordu je 1990. godine razvio drugačiji pristup kvantnoj kriptografiji zasnovanoj na kvantnim korelacijama poznatim kao kvantna isprepletanost.
+\section{Kvantna kriptografija danas}
+
+\section{Zaključak}
+\label{sec:zakljucak}
+
+
+\newpage
+\addcontentsline{toc}{section}{Literatura}
+\appendix
+
+\iffalse
+\bibliography{seminarski} 
+\bibliographystyle{plain}
+\fi
+
+\begin{thebibliography}{9}
+
+\bibitem{laski2009software} J. Laski and W. Stanley. \emph{Software Verification and Analysis}. Springer- Verlag, London, 2009.
+
+\bibitem{gcc} Free Software Foundation. GNU gcc, 2013. on-line at: http://gcc. gnu.org/.
+
+\bibitem{haltingproblem} A. M. Turing. \emph{On Computable Numbers, with an application to the Entscheidungsproblem}. Proceedings of the London Mathematical Society, 2(42):230–265, 1936.
+
+
+\end{thebibliography}
+
+
+\appendix
+
+\section{Dodatak}
+Ovde pišem dodatne stvari, ukoliko za time ima potrebe.
+Ovde pišem dodatne stvari, ukoliko za time ima potrebe.
+Ovde pišem dodatne stvari, ukoliko za time ima potrebe.
+Ovde pišem dodatne stvari, ukoliko za time ima potrebe.
+Ovde pišem dodatne stvari, ukoliko za time ima potrebe.
+
+
+\end{document}
