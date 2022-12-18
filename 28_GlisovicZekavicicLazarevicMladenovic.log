@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.5)  15 NOV 2022 19:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.5)  18 DEC 2022 19:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -625,67 +625,64 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 (28_GlisovicZekavicicLazarevicMladenovic.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 4.
+(Font)              <9> on input line 5.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 4.
+(Font)              <5> on input line 5.
 )
 \tf@toc=\write4
 \openout4 = `28_GlisovicZekavicicLazarevicMladenovic.toc'.
 
  [1
 
-{C:/Users/ciganHP/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2]
-<bb84.jpg, id=80, 639.89063pt x 389.20406pt>
+{C:/Users/ciganHP/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2] [3]
+<bb84.jpg, id=95, 639.89063pt x 389.20406pt>
 File: bb84.jpg Graphic file (type jpg)
 <use bb84.jpg>
-Package pdftex.def Info: bb84.jpg  used on input line 73.
+Package pdftex.def Info: bb84.jpg  used on input line 83.
 (pdftex.def)             Requested size: 276.00105pt x 167.87709pt.
- [3 <./bb84.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 78--80
-
- []
-
+ [4 <./bb84.jpg>] [5]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 83.
-[4] [5] [6] [7] (28_GlisovicZekavicicLazarevicMladenovic.aux)
+(Font)              <7> on input line 118.
+ [6] [7]
+(28_GlisovicZekavicicLazarevicMladenovic.aux)
 Package rerunfilecheck Info: File `28_GlisovicZekavicicLazarevicMladenovic.out'
  has not changed.
-(rerunfilecheck)             Checksum: 7563CE80A0B903D2ACE4600FF21498B5;1420.
+(rerunfilecheck)             Checksum: C15782B320C9F721380C40EE739145FF;1465.
  )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 30 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 11743 strings out of 475385
- 192449 string characters out of 2775963
- 542195 words of memory out of 3000000
- 32917 multiletter control sequences out of 15000+600000
- 482538 words of font info for 53 fonts, out of 8000000 for 9000
+ 11755 strings out of 475385
+ 192600 string characters out of 2775963
+ 541385 words of memory out of 3000000
+ 32923 multiletter control sequences out of 15000+600000
+ 483355 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,18n,77p,1089b,505s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 72i,11n,77p,1430b,552s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\ciganHP\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t
-2a/dpi600\larm0800.pk> <C:\Users\ciganHP\AppData\Local\MiKTeX\fonts/pk/ljfour/l
+2a/dpi600\labx1000.pk> <C:\Users\ciganHP\AppData\Local\MiKTeX\fonts/pk/ljfour/l
 h/lh-t2a/dpi600\labx1200.pk> <C:\Users\ciganHP\AppData\Local\MiKTeX\fonts/pk/lj
 four/jknappen/ec/dpi600\tcrm0900.pk> <C:\Users\ciganHP\AppData\Local\MiKTeX\fon
-ts/pk/ljfour/lh/lh-t2a/dpi600\lati0900.pk> <C:\Users\ciganHP\AppData\Local\MiKT
-eX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0600.pk> <C:\Users\ciganHP\AppData\Loca
-l\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1000.pk> <C:\Users\ciganHP\AppDat
-a\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1440.pk> <C:\Users\ciganHP\
-AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx0900.pk> <C:\Users\ci
-ganHP\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1200.pk> <C:\Us
-ers\ciganHP\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0900.pk> 
-<C:\Users\ciganHP\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm172
-8.pk><C:/Users/ciganHP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
-s/cm/cmmi6.pfb><C:/Users/ciganHP/AppData/Local/Programs/MiKTeX/fonts/type1/publ
-ic/amsfonts/cm/cmr10.pfb><C:/Users/ciganHP/AppData/Local/Programs/MiKTeX/fonts/
-type1/public/amsfonts/cm/cmr12.pfb><C:/Users/ciganHP/AppData/Local/Programs/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/ciganHP/AppData/Local/Pro
-grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on 28_GlisovicZekavicicLazarevicMladenovic.pdf (7 pages, 262554 
+ts/pk/ljfour/lh/lh-t2a/dpi600\larm0800.pk> <C:\Users\ciganHP\AppData\Local\MiKT
+eX\fonts/pk/ljfour/lh/lh-t2a/dpi600\lati0900.pk> <C:\Users\ciganHP\AppData\Loca
+l\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0600.pk> <C:\Users\ciganHP\AppDat
+a\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1000.pk> <C:\Users\ciganHP\
+AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1440.pk> <C:\Users\ci
+ganHP\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx0900.pk> <C:\Us
+ers\ciganHP\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1200.pk> 
+<C:\Users\ciganHP\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm090
+0.pk> <C:\Users\ciganHP\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\l
+arm1728.pk><C:/Users/ciganHP/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmmi6.pfb><C:/Users/ciganHP/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmr12.pfb><C:/Users/ciganHP/AppData/Local/Programs/MiKTeX/
+fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/ciganHP/AppData/Local/Program
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmti9.pfb>
+Output written on 28_GlisovicZekavicicLazarevicMladenovic.pdf (7 pages, 276775 
 bytes).
 PDF statistics:
- 499 PDF objects out of 1000 (max. 8388607)
- 27 named destinations out of 1000 (max. 500000)
+ 572 PDF objects out of 1000 (max. 8388607)
+ 32 named destinations out of 1000 (max. 500000)
  86 words of extra memory for PDF output out of 10000 (max. 10000000)
 
