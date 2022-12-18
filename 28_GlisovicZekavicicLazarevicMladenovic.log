@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.5)  18 DEC 2022 19:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.5)  18 DEC 2022 19:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -660,7 +660,7 @@ Here is how much of TeX's memory you used:
  32923 multiletter control sequences out of 15000+600000
  483355 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,11n,77p,1430b,552s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 72i,11n,77p,1429b,552s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\ciganHP\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t
 2a/dpi600\labx1000.pk> <C:\Users\ciganHP\AppData\Local\MiKTeX\fonts/pk/ljfour/l
 h/lh-t2a/dpi600\labx1200.pk> <C:\Users\ciganHP\AppData\Local\MiKTeX\fonts/pk/lj
@@ -679,7 +679,7 @@ msfonts/cm/cmmi6.pfb><C:/Users/ciganHP/AppData/Local/Programs/MiKTeX/fonts/type
 1/public/amsfonts/cm/cmr12.pfb><C:/Users/ciganHP/AppData/Local/Programs/MiKTeX/
 fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/ciganHP/AppData/Local/Program
 s/MiKTeX/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on 28_GlisovicZekavicicLazarevicMladenovic.pdf (7 pages, 276775 
+Output written on 28_GlisovicZekavicicLazarevicMladenovic.pdf (7 pages, 276776 
 bytes).
 PDF statistics:
  572 PDF objects out of 1000 (max. 8388607)
